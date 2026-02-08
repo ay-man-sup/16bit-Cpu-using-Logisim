@@ -41,6 +41,7 @@ The design closely follows classic computer architecture principles while being 
 
 ### I-type (Immediate)
 <img width="659" height="103" alt="image" src="https://github.com/user-attachments/assets/eb182e21-dbbe-4cf0-9a94-11ab83e4d879" />
+
 **Immediate (6-bit signed)** is placed in bits: **3, 2, 1, 15, 14, 0** (from MSB to LSB).
 
 ### J-type (Jump)
@@ -97,14 +98,6 @@ The repository includes four test programs with verified machine codes (see `doc
 - **Mem-2**: Bitwise operations (`andi`, `ori`)
 - **Mem-3**: Memory load/store + logic operations
 - **Mem-4**: Function call (`call`) and return (`rtn`)
-
-## Project Files
-
-- `main.circ` → Main CPU circuit
-- `documentation/Read_Me.pdf` → Detailed project report (instruction formats, machine codes, etc.)
-- `test_programs/` → Assembly examples and machine code
-- `screenshots/` → Circuit screenshots (add your own)
-
 
 
 ## Future Improvements
